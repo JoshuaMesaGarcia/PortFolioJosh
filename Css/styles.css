@@ -1,0 +1,38 @@
+hr{
+  background-color: white;
+}
+
+.professional-body{
+  background-color: grey;
+}
+
+.creative-body{
+  background-color: black;
+  color: white;
+}
+
+.landing-img{
+  width: 68%;
+
+}
+
+.pro-description, .crea-description{
+  text-align: center;
+}
+
+.aboutMe{
+  background-color: #191e24;
+  text-align: center;
+  color: white;
+   padding-top: 4.5%;
+  padding-bottom: 4.3%;
+}
+
+.project-body{
+  background-color: #312244;
+}
+
+.project-body h1{
+  color: white;
+  
+}
