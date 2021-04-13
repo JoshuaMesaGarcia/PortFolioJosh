@@ -1,3 +1,8 @@
+hr{
+  background-color: white;
+}
+
+
 .professional-body{
   background-color: grey;
 }
@@ -7,7 +12,60 @@
   color: white;
 }
 
+.landingNav{
+  background-color: #191c24;
+  font-size: 1.2rem;
+}
+
 .landing-img{
   width: 68%;
 
+}
+
+.aboutMe{
+  background-color: #191e24;
+  padding-top: 4.5%;
+  padding-bottom: 4.3%;
+}
+
+.project-body{
+  background-color: #312244;
+}
+
+.hobby-body{
+  background-color: #3e1f47;
+}
+
+/* Flip cards CSS */
+.card-flip {
+  position: relative;
+  width: 100%;
+  transform-style: preserve-3d;
+  height: auto;
+  transition: all 0.5s ease-out;
+  background: white;
+  border: none;
+}
+
+.card-flip div {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+
+.card-flip .front {
+  position: relative;
+  z-index: 1;
+}
+
+.card-flip .back {
+  position: relative;
+  z-index: 0;
+  transform: rotateY(-180deg);
+}
+
+.card-container:hover .card-flip {
+  transform: rotateY(180deg);
 }
