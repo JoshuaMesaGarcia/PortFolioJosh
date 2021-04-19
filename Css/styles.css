@@ -1,7 +1,11 @@
+.mainRow{
+  width: 100%;
+  display: flex;
+}
+
 hr{
   background-color: white;
 }
-
 
 .professional-body{
   background-color: grey;
@@ -28,12 +32,33 @@ hr{
   padding-bottom: 4.3%;
 }
 
+.aboutMe h1{
+  font-size: 3rem;
+}
+
 .project-body{
-  background-color: #312244;
+  background-color: grey;
+}
+
+.project-body hr{
+    border: none;
 }
 
 .hobby-body{
-  background-color: #3e1f47;
+  background-color: black;
+}
+
+.carousel-creative{
+  height: 38rem;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+footer{
+  background-color: #191e24;
 }
 
 /* Flip cards CSS */
@@ -68,4 +93,8 @@ hr{
 
 .card-container:hover .card-flip {
   transform: rotateY(180deg);
+}
+
+.back button{
+  width: 80%;
 }
