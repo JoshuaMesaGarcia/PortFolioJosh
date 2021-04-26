@@ -2,7 +2,6 @@
 <html lang="en" dir="ltr">
 
 <head>
-
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <!-- My Own Styles and js-->
@@ -23,238 +22,244 @@
 </head>
 
 <body>
+  <div class="MainContainer">
 
-  <div id="landingPage" >
-    <!-- Logo And Menu of the landking Page -->
-    <div class="mainRow landingNav">
-      <div class="col-4 ">
-        <section class="logo">
-          <nav class="navbar navbar-expand-lg navbar-dark">
-            <img src="./IMG/logo.png" class="logo" alt="">
-          </nav>
-        </section>
-      </div>
-      <!-- Menu -->
-      <div class="col-8">
-        <section id="menu-bar">
-          <nav class="navbar navbar-expand-lg navbar-dark float-right mr-2">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#landingMenu" aria-controls="landingMenu" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse myNav" id="landingMenu">
-              <div class="d-inline-flex">
-                <a class="nav-link" href=""><i class="fas fa-envelope"></i></a>
-                <a class="nav-link" href="https://www.linkedin.com/in/joshua-mesa-garc%C3%ADa-59750a140/" target="_blank"> <i class="fab fa-linkedin"></i></a>
-                <a class="nav-link" href="" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a class="nav-link" href="https://github.com/JoshuaMesaGarcia" target="_blank"><i class="fab fa-github"></i></i></a>
-              </div>
-            </div>
-          </nav>
-        </section>
-      </div>
-    </div>
-
-    <div class="mainRow ">
-      <!-- All related with the Professional Part of the website -->
-      <div class="col-lg-6 professional-body">
-        <!-- Details about Professional -->
-        <div class="row">
-          <div class="col-6 pro-description pl-5 my-3">
-            <div class="row">
-              <div class="col-12">
-                <h1 class=""><ins><strong>Coding</strong></ins></h1>
-              </div>
-              <div class="col-12">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-              </div>
-              <div class="col-12">
-                <a href="#project" class="btn btn btn-outline-dark btn-lg">To Projects</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6">
-            <img class="rounded float-right landing-img my-4" src="IMG/crop2.jpeg" alt="">
-          </div>
+    <div id="landingPage" class=" ParallaxContainer ">
+      <!-- Logo And Menu of the landking Page -->
+      <div class="mainRow landingNav">
+        <div class="col-4 ">
+          <section class="logo">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+              <img src="./IMG/logo.png" class="logo" alt="">
+            </nav>
+          </section>
         </div>
-
-      </div>
-      <!-- All related with the Creative Part of the website -->
-      <div class="col-lg-6 creative-body">
-        <div class="row">
-          <div class="col-6 ">
-            <img class="landing-img rounded float-left my-4" src="IMG/crop11.jpeg" alt="">
-          </div>
-          <!-- Description of the Creative part -->
-          <div class="col-6 crea-description pr-5 my-3 text-right">
-            <div class="row">
-              <div class="col-12 ">
-                <h1 class=""><ins><strong>Creative</strong></ins></h1>
-              </div>
-              <div class="col-12">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-              </div>
-              <div class="col-12">
-                <a href="#creative" class="btn btn-outline-light btn-lg">To creative</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-    <!-- All related with about me section -->
-    <div class="mainRow ">
-      <div class="col-12 aboutMe text-center text-white">
-        <h1 class="pb-4"><ins><strong>About Me</strong></ins></h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-      </div>
-    </div>
-
-  </div>
-
-
-  <!-- The entire structure for Project page -->
-  <div id="project" class="project-body">
-
-    <div class="mainRow">
-      <div class="row">
-        <div class="col-12 mt-2"> <hr> </div>
-      </div>
-
-    </div>
-    <!-- To project body -->
-    <div class="mainRow" >
-      <div class="col-8" id="projectBodyLg">
-        <div class="row">
-          <div class="col-2"></div>
-          <div class="col-10 text-center">
-            <h1 class="text-left my-4"><ins><strong>Projects</strong></ins></h1>
-          </div>
-        </div>
-
-        <!-- Card Deck -->
-        <div class="row mb-4">
-          <div class="col-2"></div>
-
-          <!-- First Card -->
-          <div class="col-4 card-container ">
-            <div class="card border-light mb-2 text-white bg-dark text-center card-flip">
-              <!-- Front of the card -->
-              <div class="front card-block">
-                <div class="">
-                  <img class="card-img-top mt-5 mb-4 w-50" src="IMG/GameJs.png" alt="Card image cap">
-                  <h5 class="card-title card-body"><ins>Game made with only Js</ins></h5>
+        <!-- Menu -->
+        <div class="col-8">
+          <section id="menu-bar">
+            <nav class="navbar navbar-expand-lg navbar-dark float-right mr-2">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#landingMenu" aria-controls="landingMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse myNav" id="landingMenu">
+                <div class="d-inline-flex">
+                  <a class="nav-link" href=""><i class="fas fa-envelope"></i></a>
+                  <a class="nav-link" href="https://www.linkedin.com/in/joshua-mesa-garc%C3%ADa-59750a140/" target="_blank"> <i class="fab fa-linkedin"></i></a>
+                  <a class="nav-link" href="" target="_blank"><i class="fab fa-instagram"></i></a>
+                  <a class="nav-link" href="https://github.com/JoshuaMesaGarcia" target="_blank"><i class="fab fa-github"></i></i></a>
                 </div>
               </div>
-              <!-- Back of the card -->
-              <div class="back border-light mb-2 text-white bg-dark card-block text-center">
-                <h3 class="my-3"><ins>Simon - JS</ins></h3>
+            </nav>
+          </section>
+        </div>
+      </div>
+
+      <div class="mainRow ">
+        <!-- All related with the Professional Part of the website -->
+        <div class="col-lg-6 professional-body">
+          <!-- Details about Professional -->
+          <div class="row">
+            <div class="col-6 pro-description pl-5 my-3">
+              <div class="row">
+                <div class="col-12">
+                  <h1 class=""><ins><strong>Coding</strong></ins></h1>
+                </div>
+                <div class="col-12">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </div>
+                <div class="col-12">
+                  <a href="#project" class="btn btn btn-outline-dark btn-lg">To Projects</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <img class="rounded float-right landing-img my-4" src="IMG/crop2.jpeg" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- All related with the Creative Part of the website -->
+        <div class="col-lg-6 creative-body">
+          <div class="row">
+            <div class="col-6 ">
+              <img class="landing-img rounded float-left my-4" src="IMG/crop11.jpeg" alt="">
+            </div>
+            <!-- Description of the Creative part -->
+            <div class="col-6 crea-description pr-5 my-3 text-right">
+              <div class="row">
+                <div class="col-12 ">
+                  <h1 class=""><ins><strong>Creative</strong></ins></h1>
+                </div>
+                <div class="col-12">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </div>
+                <div class="col-12">
+                  <a href="#creative" class="btn btn-outline-light btn-lg">To creative</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- All related with about me section -->
+      <div class="mainRow ">
+        <div class="col-12 aboutMe text-center text-white">
+          <h1 class="pb-4"><ins><strong>About Me</strong></ins></h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- The entire structure for Project page -->
+    <div id="project" class="project-body  ContentContainer">
+
+      <div class="mainRow">
+        <div class="row">
+          <div class="col-12 mt-2">
+            <hr>
+          </div>
+        </div>
+      </div>
+      <!-- To project body -->
+      <div class="mainRow">
+        <div class="col-8" id="projectBodyLg">
+          <div class="row">
+            <div class="col-2"></div>
+            <div class="col-10 text-center">
+              <h1 class="text-left my-4"><ins><strong>Projects</strong></ins></h1>
+            </div>
+          </div>
+
+          <!-- Card Deck -->
+          <div class="row mb-4">
+            <div class="col-2"></div>
+
+            <!-- First Card -->
+            <div class="col-4 card-container ">
+              <div class="card border-light mb-2 text-white bg-dark text-center card-flip">
+                <!-- Front of the card -->
+                <div class="front card-block">
+                  <div class="">
+                    <img class="card-img-top mt-5 mb-4 w-50" src="IMG/GameJs.png" alt="Card image cap">
+                    <h5 class="card-title card-body"><ins>Game made with only Js</ins></h5>
+                  </div>
+                </div>
+                <!-- Back of the card -->
+                <div class="back border-light mb-2 text-white bg-dark card-block text-center">
+                  <h3 class="my-3"><ins>Simon - JS</ins></h3>
                   <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-3"> JavaScript </button><br>
                   <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-3"> HTML </button><br>
                   <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-3"> CSS </button><br>
-                <a href="https://joshuamesagarcia.github.io/GameJs/" target="_blank" class="btn btn-outline-light btn-lg my-3 ">To the game</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-2"></div>
-
-          <!-- Second Card -->
-          <div class="col-4 card-container">
-            <div class="card border-light mb-2 text-white bg-dark text-center card-flip">
-              <!-- Front of the card -->
-              <div class="front card-block">
-                <div class="">
-                  <img class="card-img-top my-5 w-50" src="IMG/Quidditch.PNG" alt="Card image cap">
-                  <h5 class="card-title card-body mt-3"> <ins>Quidditch Scoreboard App</ins> </h5>
+                  <a href="https://joshuamesagarcia.github.io/GameJs/" target="_blank" class="btn btn-outline-light btn-lg my-3 ">To the game</a>
                 </div>
               </div>
-              <!-- Back of the card -->
-              <div class="back border-light mb-2 text-white bg-dark card-block text-center">
-                <h3 class="my-3"><ins>Quidditch App</ins></h3>
+            </div>
+
+            <div class="col-2"></div>
+
+            <!-- Second Card -->
+            <div class="col-4 card-container">
+              <div class="card border-light mb-2 text-white bg-dark text-center card-flip">
+                <!-- Front of the card -->
+                <div class="front card-block">
+                  <div class="">
+                    <img class="card-img-top my-5 w-50" src="IMG/Quidditch.PNG" alt="Card image cap">
+                    <h5 class="card-title card-body mt-3"> <ins>Quidditch Scoreboard App</ins> </h5>
+                  </div>
+                </div>
+                <!-- Back of the card -->
+                <div class="back border-light mb-2 text-white bg-dark card-block text-center">
+                  <h3 class="my-3"><ins>Quidditch App</ins></h3>
                   <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-5"> Android Studio </button><br>
                   <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-4"> Java </button><br>
-                <a href="https://github.com/JoshuaMesaGarcia/QuidditchScoreBoard" target="_blank" class="btn btn-outline-light btn-lg my-3">To the code</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Line breaks -->
-         <div class="row">
-          <div class="col-12"><hr></div>
-        </div>
-        <div class="row">
-          <div class="col-12"><hr></div>
-        </div>
-        <div class="row">
-          <div class="col-12"><hr /></div>
-        </div>
-
-        <!-- Next Row -->
-        <div class="row my-5">
-          <div class="col-2"></div>
-
-          <!-- Third Card -->
-          <div class="col-4 card-container">
-            <div class="card border-light mb-2 text-white bg-dark text-center card-flip">
-              <!-- Front of the card -->
-              <div class="front card-block">
-                <div class="">
-                  <img class="card-img-top my-5 w-50" src="IMG/audioPlayer.PNG" alt="Card image cap">
-                  <h5 class="card-title card-body mt-2"><ins>My Own Audio player</ins></h5>
+                  <a href="https://github.com/JoshuaMesaGarcia/QuidditchScoreBoard" target="_blank" class="btn btn-outline-light btn-lg my-3">To the code</a>
                 </div>
               </div>
-              <!-- Back of the card -->
-              <div class="back border-light mb-2 text-white bg-dark card-block text-center">
-                <h3 class="my-3"><ins>Audio Player</ins></h3>
-                <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-2"> JS </button><br>
-                <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-2"> HTML </button><br>
-                <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-2"> SVG </button><br>
-                <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-2"> Css </button><br>
-                <a href="https://joshuamesagarcia.github.io/MyAudioPlayer/" target="_blank" class="btn btn-lg btn-outline-light my-3">Have a look!</a>
-              </div>
             </div>
           </div>
 
-          <div class="col-2"></div>
+          <!-- Line breaks -->
+          <div class="row">
+            <div class="col-12">
+              <hr>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <hr>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <hr />
+            </div>
+          </div>
 
-          <!-- Fourth card -->
-          <div class="col-4 card-container ">
-            <div class="card border-light mb-2 text-white bg-dark text-center card-flip">
-              <!-- Front of the card -->
-              <div class="front card-block">
-                <div class="pt-4">
-                  <img class="card-img-top mt-4 mb-5 w-75" src="IMG/forms1.PNG" alt="Card image cap">
-                  <h5 class="card-title card-body mt-5"><ins> Forms Example with validate.js </ins></h5>
+          <!-- Next Row -->
+          <div class="row my-5">
+            <div class="col-2"></div>
+
+            <!-- Third Card -->
+            <div class="col-4 card-container">
+              <div class="card border-light mb-2 text-white bg-dark text-center card-flip">
+                <!-- Front of the card -->
+                <div class="front card-block">
+                  <div class="">
+                    <img class="card-img-top my-5 w-50" src="IMG/audioPlayer.PNG" alt="Card image cap">
+                    <h5 class="card-title card-body mt-2"><ins>My Own Audio player</ins></h5>
+                  </div>
+                </div>
+                <!-- Back of the card -->
+                <div class="back border-light mb-2 text-white bg-dark card-block text-center">
+                  <h3 class="my-3"><ins>Audio Player</ins></h3>
+                  <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-2"> JS </button><br>
+                  <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-2"> HTML </button><br>
+                  <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-2"> SVG </button><br>
+                  <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-2"> Css </button><br>
+                  <a href="https://joshuamesagarcia.github.io/MyAudioPlayer/" target="_blank" class="btn btn-lg btn-outline-light my-3">Have a look!</a>
                 </div>
               </div>
-              <!-- Back of the card -->
-              <div class="back border-light mb-2 text-white bg-dark card-block text-center">
-                <h3 class="my-3"><ins>Forms with Validate.js</ins></h3>
-                <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-2"> Ajax - Json </button><br>
-                <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-2"> MySQL - Jquery </button><br>
-                <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-2"> Validate.js - Toastr </button><br>
-                <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-2"> Bootstrap - HTML - CSS </button><br>
-                <a href="https://github.com/JoshuaMesaGarcia/MyForms" target="_blank" class="btn btn-lg btn-outline-light my-3">To the code</a>
+            </div>
+
+            <div class="col-2"></div>
+
+            <!-- Fourth card -->
+            <div class="col-4 card-container ">
+              <div class="card border-light mb-2 text-white bg-dark text-center card-flip">
+                <!-- Front of the card -->
+                <div class="front card-block">
+                  <div class="pt-4">
+                    <img class="card-img-top mt-4 mb-5 w-75" src="IMG/forms1.PNG" alt="Card image cap">
+                    <h5 class="card-title card-body mt-5"><ins> Forms Example with validate.js </ins></h5>
+                  </div>
+                </div>
+                <!-- Back of the card -->
+                <div class="back border-light mb-2 text-white bg-dark card-block text-center">
+                  <h3 class="my-3"><ins>Forms with Validate.js</ins></h3>
+                  <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-2"> Ajax - Json </button><br>
+                  <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-2"> MySQL - Jquery </button><br>
+                  <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-2"> Validate.js - Toastr </button><br>
+                  <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-2"> Bootstrap - HTML - CSS </button><br>
+                  <a href="https://github.com/JoshuaMesaGarcia/MyForms" target="_blank" class="btn btn-lg btn-outline-light my-3">To the code</a>
+                </div>
               </div>
             </div>
           </div>
+          <!-- End of the Row -->
         </div>
-      <!-- End of the Row -->
-      </div>
 
 
-      <!-- Project Body only visible for small devices -->
+        <!-- Project Body only visible for small devices -->
         <div class="col-8" id="projectBodySm">
           <div class="row">
             <div class="col-2"></div>
@@ -271,195 +276,193 @@
                   <!-- First card -->
                   <div class="carousel-item active">
                     <div class="card border-light mb-2 text-white bg-dark text-center card-flip">
-                        <div class="">
-                          <img class="card-img-top my-4 w-50" src="IMG/GameJS.png" alt="GameJS cap">
-                          <div class="border-light mb-2 text-white bg-dark card-block text-center">
-                            <h3 class="my-3"><ins>Simon - JS</ins></h3>
-                            <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-3"> JavaScript - HTML - CSS</button><br>
-                            <a href="https://joshuamesagarcia.github.io/GameJs/" target="_blank" class="btn btn-outline-light btn-lg my-3 ">To the game</a>
-                          </div>
+                      <div class="">
+                        <img class="card-img-top my-4 w-50" src="IMG/GameJS.png" alt="GameJS cap">
+                        <div class="border-light mb-2 text-white bg-dark card-block text-center">
+                          <h3 class="my-3"><ins>Simon - JS</ins></h3>
+                          <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-3"> JavaScript - HTML - CSS</button><br>
+                          <a href="https://joshuamesagarcia.github.io/GameJs/" target="_blank" class="btn btn-outline-light btn-lg my-3 ">To the game</a>
                         </div>
+                      </div>
                     </div>
                   </div>
                   <!-- Second Card -->
                   <div class="carousel-item">
                     <div class="card border-light mb-2 text-white bg-dark text-center card-flip">
-                        <div class="">
-                          <img class="card-img-top mt-4 mb-5 w-50" src="IMG/Quidditch.PNG" alt="Quidditch cap">
-                          <div class="border-light mb-2 text-white bg-dark card-block text-center">
-                            <h3 class="my-4"><ins>Quidditch App</ins></h3>
-                            <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-3"> Android Studio - Java </button><br>
-                            <a href="https://github.com/JoshuaMesaGarcia/QuidditchScoreBoard" target="_blank" class="btn btn-outline-light btn-lg my-3">To the code</a>
-                          </div>
+                      <div class="">
+                        <img class="card-img-top mt-4 mb-5 w-50" src="IMG/Quidditch.PNG" alt="Quidditch cap">
+                        <div class="border-light mb-2 text-white bg-dark card-block text-center">
+                          <h3 class="my-4"><ins>Quidditch App</ins></h3>
+                          <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-3"> Android Studio - Java </button><br>
+                          <a href="https://github.com/JoshuaMesaGarcia/QuidditchScoreBoard" target="_blank" class="btn btn-outline-light btn-lg my-3">To the code</a>
                         </div>
                       </div>
                     </div>
-                    <!-- Third card -->
-                    <div class="carousel-item">
-                      <div class="card border-light mb-2 text-white bg-dark text-center card-flip">
-                          <div class="">
-                            <img class="card-img-top my-5 w-50" src="IMG/audioPlayer.PNG" alt="Card image cap">
-                            <div class="border-light mb-2 text-white bg-dark card-block text-center">
-                              <h3 class="my-3"><ins>Audio Player</ins></h3>
-                              <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-2"> JS - HTML - SVG - Css </button><br>
-                              <a href="https://joshuamesagarcia.github.io/MyAudioPlayer/" target="_blank" class="btn btn-lg btn-outline-light my-4">Have a look!</a>
-                            </div>
-                          </div>
+                  </div>
+                  <!-- Third card -->
+                  <div class="carousel-item">
+                    <div class="card border-light mb-2 text-white bg-dark text-center card-flip">
+                      <div class="">
+                        <img class="card-img-top my-5 w-50" src="IMG/audioPlayer.PNG" alt="Card image cap">
+                        <div class="border-light mb-2 text-white bg-dark card-block text-center">
+                          <h3 class="my-3"><ins>Audio Player</ins></h3>
+                          <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-2"> JS - HTML - SVG - Css </button><br>
+                          <a href="https://joshuamesagarcia.github.io/MyAudioPlayer/" target="_blank" class="btn btn-lg btn-outline-light my-4">Have a look!</a>
+                        </div>
                       </div>
                     </div>
-                    <!-- Fourth card -->
-                    <div class="carousel-item">
-                      <div class="card border-light mb-2 text-white bg-dark text-center card-flip">
-                        <div class="">
-                            <img class="card-img-top mt-4 mb-2 w-75" src="IMG/forms1.PNG" alt="Card image cap">
-                            <div class="border-light mb-2 text-white bg-dark card-block text-center">
-                              <h3 class="my-3"><ins>Forms with Validate.js</ins></h3>
-                              <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-2"> Ajax - Json - MySQL - Jquery</button><br>
-                              <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-2"> Validate.js - Toastr </button><br>
-                              <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-2"> Bootstrap - HTML - CSS </button><br>
-                              <a href="https://github.com/JoshuaMesaGarcia/MyForms" target="_blank" class="btn btn-lg btn-outline-light my-3">To the code</a>
-                            </div>
+                  </div>
+                  <!-- Fourth card -->
+                  <div class="carousel-item">
+                    <div class="card border-light mb-2 text-white bg-dark text-center card-flip">
+                      <div class="">
+                        <img class="card-img-top mt-4 mb-2 w-75" src="IMG/forms1.PNG" alt="Card image cap">
+                        <div class="border-light mb-2 text-white bg-dark card-block text-center">
+                          <h3 class="my-3"><ins>Forms with Validate.js</ins></h3>
+                          <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-2"> Ajax - Json - MySQL - Jquery</button><br>
+                          <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-2"> Validate.js - Toastr </button><br>
+                          <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-2"> Bootstrap - HTML - CSS </button><br>
+                          <a href="https://github.com/JoshuaMesaGarcia/MyForms" target="_blank" class="btn btn-lg btn-outline-light my-3">To the code</a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <!-- Controls of the carousel -->
-                <a class="carousel-control-prev" href="#carouselProject" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselProject" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
               </div>
-            </div>
-          </div>
-
-          <!-- Image -->
-          <div class="col-4 mt-5">
-            <div class="row">
-              <div class="col-4"></div>
-              <div class="col-8 mt-4">
-                <img class="landing-img rounded mb-4 mt-4 pr-1" src="IMG/crop2.jpeg" alt="">
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-4"> </div>
-              <div class="col-8">
-                <a class="btn btn btn-outline-dark btn-lg btn-block mr-2" href="File/cv.pdf" download="CV Joshua" target="_blank">PDF - CV <i class="fa fa-download"></i></a>
-              </div>
+              <!-- Controls of the carousel -->
+              <a class="carousel-control-prev" href="#carouselProject" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselProject" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
           </div>
         </div>
-    </div>
 
-
-
-
-  </div>
-
-  <!-- To Hobby Body -->
-  <div id="creative" class="hobby-body">
-
-    <div class="mainRow">
-      <div class="row">
-        <div class="col-12 mt-2"> <hr> </div>
-      </div>
-    </div>
-
-    <!-- Description of the page -->
-    <div class="mainRow">
-        <div class="col-4"></div>
-        <div class="col-5">
-          <h1 class="text-left mt-4 text-white"><ins><strong>My Hobbies</strong></ins></h1>
-        </div>
-  </div>
-    <!-- Creative section IMG and page -->
-    <div class="mainRow">
-    <div class="col-4">
-      <img class="rounded float-left landing-img mb-5" src="IMG/crop11.jpeg" alt="">
-    </div>
-    <!-- Modelkits -->
-    <div class="col-4 align-self-center">
-        <div id="carouselModelKits" class="carousel slide" data-ride="carousel">
-
-          <div class="carousel-inner">
-            <div class="carousel-item active carousel-creative">
-              <img class="d-block image-fluid img-thumbnail" src="IMG/diorama1.jpg" alt="First slide">
-              <div class="text-center text-white py-2">
-                <h5 >Supermarine Walrus Mk.1 Diorama</h5>
-                <p>The Supermarine Walrus was a British single-engine amphibious biplane manufactured by the British aircraft company Supermarine</p>
-              </div>
+        <!-- Image -->
+        <div class="col-4 mt-5">
+          <div class="row">
+            <div class="col-4"></div>
+            <div class="col-8 mt-4">
+              <img class="landing-img rounded mb-4 mt-4 pr-1" src="IMG/crop2.jpeg" alt="">
             </div>
-            <div class="carousel-item carousel-creative">
-              <img class="d-block image-fluid img-thumbnail" src="IMG/diorama1-2.jpg" alt="Second slide">
-              <div class="text-center text-white py-2">
-                <h5>Supermarine Walrus Mk.1 Diorama</h5>
-                <p>The first Seagull V, A2-1, was handed over to the Royal Australian Air Force in 1935, with the last, A2-24 delivered in 1937</p>
-              </div>
+          </div>
+          <div class="row">
+            <div class="col-4"> </div>
+            <div class="col-8">
+              <a class="btn btn btn-outline-dark btn-lg btn-block mr-2" href="File/cv.pdf" download="CV Joshua" target="_blank">PDF - CV <i class="fa fa-download"></i></a>
             </div>
-            <div class="carousel-item carousel-creative">
-              <img class="d-block image-fluid img-thumbnail" src="IMG/diorama1-3.jpg" alt="Third slide">
-              <div class="text-center text-white py-4">
-                <h5>Supermarine Walrus Mk.1 Diorama</h5>
-                <p>This Diorama was the first Diorama I ever made</p>
-              </div>
-            </div>
-
-             <a class="carousel-control-prev" href="#carouselModelKits" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselModelKits" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- Music / Video of me playing drums -->
-    <div class="col-4 align-self-center">
-      <div id="carouselMusic" class="carousel slide" data-ride="carousel">
 
-        <div class="carousel-inner">
-          <div class="carousel-item active carousel-creative">
-            <div class="embed-responsive embed-responsive-4by3">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=n63UbX5kzAc" allowfullscreen></iframe>
+    <!-- To Hobby Body -->
+    <div id="creative" class="hobby-body ParallaxContainer2">
+
+      <div class="mainRow">
+        <div class="row">
+          <div class="col-12 mt-2">
+            <hr>
+          </div>
+        </div>
+      </div>
+
+      <!-- Description of the page -->
+      <div class="mainRow">
+        <div class="col-3"></div>
+        <div class="col-4">
+          <h1 class="text-left my-4 text-white"><ins><strong>My Hobbies</strong></ins></h1>
+        </div>
+      </div>
+
+      <!-- Creative section IMG and page -->
+      <div class="mainRow">
+        <div class="col-3">
+          <img class="rounded float-left hobby-img mb-5" src="IMG/crop11.jpeg" alt="">
+        </div>
+        <!-- Modelkits -->
+        <div class="col-4 align-self-center">
+          <div id="carouselModelKits" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner">
+              <div class="carousel-item active carousel-creative">
+                <img class="d-block image-fluid img-thumbnail" src="IMG/diorama1.jpg" alt="First slide">
+                <div class="text-center text-white py-2">
+                  <h5>Supermarine Walrus Mk.1 Diorama</h5>
+                  <p>The Supermarine Walrus was a British single-engine amphibious biplane manufactured by the British aircraft company Supermarine</p>
+                </div>
+              </div>
+              <div class="carousel-item carousel-creative">
+                <img class="d-block image-fluid img-thumbnail" src="IMG/diorama1-2.jpg" alt="Second slide">
+                <div class="text-center text-white py-2">
+                  <h5>Supermarine Walrus Mk.1 Diorama</h5>
+                  <p>The first Seagull V, A2-1, was handed over to the Royal Australian Air Force in 1935, with the last, A2-24 delivered in 1937</p>
+                </div>
+              </div>
+              <div class="carousel-item carousel-creative">
+                <img class="d-block image-fluid img-thumbnail" src="IMG/diorama1-3.jpg" alt="Third slide">
+                <div class="text-center text-white py-4">
+                  <h5>Supermarine Walrus Mk.1 Diorama</h5>
+                  <p>This Diorama was the first Diorama I ever made</p>
+                </div>
+              </div>
+
+              <a class="carousel-control-prev" href="#carouselModelKits" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselModelKits" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
           </div>
-          <div class="carousel-item carousel-creative">
-            <div class="embed-responsive embed-responsive-4by3">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=JDG2m5hN1vo" allowfullscreen></iframe>
+        </div>
+
+        <!-- Music / Video of me playing drums -->
+        <div class="col-4 align-self-center">
+          <div id="carouselMusic" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active carousel-creative">
+                <div class="embed-responsive embed-responsive-4by3">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=n63UbX5kzAc" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div class="carousel-item carousel-creative">
+                <div class="embed-responsive embed-responsive-4by3">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=JDG2m5hN1vo" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div class="carousel-item carousel-creative">
+                <div class="embed-responsive embed-responsive-4by3">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=QkF3oxziUI4" allowfullscreen></iframe>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselMusic" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselMusic" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
           </div>
-          <div class="carousel-item carousel-creative">
-            <div class="embed-responsive embed-responsive-4by3">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=QkF3oxziUI4" allowfullscreen></iframe>
-            </div>
-          </div>
-           <a class="carousel-control-prev" href="#carouselMusic" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselMusic" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+        </div>
       </div>
     </div>
-    </div>
-  </div>
-  </div>
 
     <footer>
       <div class="mainRow pt-3">
-          <div class="col-10"></div>
-          <div class="col-2 text-right text-white">
-            <a id="scrollToTopBtn"><i class="fas fa-arrow-circle-up fa-3x "></i></a>
-          </div>
+        <div class="col-10"></div>
+        <div class="col-2 text-right text-white">
+          <a id="scrollToTopBtn"><i class="fas fa-arrow-circle-up fa-3x "></i></a>
+        </div>
       </div>
       <div class="mainRow py-2">
         <div class="col-6 text-center">
@@ -473,16 +476,18 @@
           <div class="row">
             <div class="col-12">
               <div class="d-flex justify-content-end myNav">
-                    <a class="nav-link" href=""><i class="fas fa-envelope"></i></a>
-                    <a class="nav-link" href="https://www.linkedin.com/in/joshua-mesa-garc%C3%ADa-59750a140/" target="_blank"> <i class="fab fa-linkedin"></i></a>
-                    <a class="nav-link" href="" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a class="nav-link" href="https://github.com/JoshuaMesaGarcia" target="_blank"><i class="fab fa-github"></i></i></a>
-             </div>
+                <a class="nav-link" href=""><i class="fas fa-envelope"></i></a>
+                <a class="nav-link" href="https://www.linkedin.com/in/joshua-mesa-garc%C3%ADa-59750a140/" target="_blank"> <i class="fab fa-linkedin"></i></a>
+                <a class="nav-link" href="" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a class="nav-link" href="https://github.com/JoshuaMesaGarcia" target="_blank"><i class="fab fa-github"></i></i></a>
+              </div>
             </div>
           </div>
+        </div>
       </div>
     </footer>
 
+  </div>
 </body>
 <script src="JS/indexJs.js"></script>
 
