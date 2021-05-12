@@ -3,16 +3,29 @@
   display: flex;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
 hr{
   background-color: white;
 }
 
 .logo{
-  width: 50%;
+  width: 40%;
 }
 
 .professional-body{
   background-color: grey;
+}
+
+.professional-body img{
+  margin-right: -15px;
 }
 
 .creative-body{
@@ -20,6 +33,9 @@ hr{
   color: white;
 }
 
+.creative-body img{
+  margin-left: -15px;
+}
 
 .landingNav{
   background-color: #191c24;
@@ -83,7 +99,6 @@ footer{
   background-color: #191e24;
 }
 
-
 .myNav a{
   color: rgba(255,255,255,.5);
   font-size: 1.2rem;
@@ -95,7 +110,7 @@ footer{
 }
 
 footer .logo{
-  width: 15%;
+  width: 10%;
 }
 
 /* Flip cards CSS */
@@ -136,46 +151,39 @@ footer .logo{
   width: 80%;
 }
 
-/* Testing Parallax */
+/*  Snapping tool -- Only working in Chrome*/
 
-.MainContainer{
-  perspective: 1px;
-  transform-style: preserve-3d;
-  height: 100vh;
-  width: 100vw;
-  overflow-y: scroll;
-  overflow-x: hidden;
+.snappingContainer{
+    max-height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-snap-type: y mandatory;
+    left: 0px;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    scroll-behavior: smooth;
 }
 
-.ContentContainer {
-  position: relative;
-  display: block;
-  z-index: 1;
+.itemSnapping{
+    height: 120vh;
+    scroll-snap-align: start ;
+    scroll-snap-stop: always;
 }
 
-.ContentContainer2 {
-  position: relative;
-  display: block;
-  z-index: 2;
+.itemFooter{
+  height: 15vh;
+  scroll-snap-align: start ;
+  scroll-snap-stop: always;
 }
 
-.ParallaxContainer {
-  z-index: -1;
-  height: 100vh;
-  width: 100vw;
-  transform: translateZ(-1px) scale(2);
+.itemLanding{
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 
-
-.ParallaxContainer2 {
-
-  z-index: 2;
-  height: 100vh;
-  transform: translateZ(-1px) scale(2);
-  width: 100vw;
-}
-
-/* END OF THE TESTING */
+/* End of Snapping */
 
 /* Media Queries */
 @media screen and (max-width: 991.98px){
