@@ -37,8 +37,15 @@
             </nav>
           </section>
         </div>
+        <div class="col-4">
+          <section class="languages  mt-3 text-center">
+            <img src="IMG/spain.png" alt="spanish flag"  onclick="changeLanguage('es')">
+            <img src="IMG/united-kingdom.png" class="px-2" onclick="changeLanguage('eng')">
+            <img src="IMG/germany.png" onclick="changeLanguage('deu')" >
+          </section>
+        </div>
         <!-- Menu -->
-        <div class="col-8">
+        <div class="col-4">
           <section id="menu-bar">
             <nav class="navbar navbar-expand-lg navbar-dark float-right mr-2">
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#landingMenu" aria-controls="landingMenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,13 +75,13 @@
                   <h1><strong>Coding</strong></h1>
                 </div>
                 <div class="col-12">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                  <p id="codingText">My speciality is Front-End Design and development. I have great ideas for design and develop them with HTML, CSS and JavaScript.<br><br>
+                    I completed some front end challenges from FronEndMentor.io . The ones I have finished are located in my github.<br><br>
+                    I also have made some projects in other languages, come and have a look at them!
+                  </p>
                 </div>
                 <div class="col-12">
-                  <a href="#project" class="btn btn btn-outline-dark btn-lg">To Projects</a>
+                  <a href="#project" class="btn btn btn-outline-dark btn-lg ">To Projects</a>
                 </div>
               </div>
             </div>
@@ -97,10 +104,10 @@
                   <h1 class=""><strong>Creative</strong></h1>
                 </div>
                 <div class="col-12">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                  <p id="hobbyText">When I'm not in the computer coding or playing videogames, I spend my time in my small studio playing drums and building plastic models. <br> <br>
+                    During the pandemic I took the time at home to learn an instrument that I always loved. Eventhough my neighbours didn't like this particular decision at first. <br><br>
+                    In the quite time I build some historic plastic models from WW1 and WW2, from airplanes to battleships <br>
+                    If you want check out some videos and photos from my hobbies, click right here! </p>
                 </div>
                 <div class="col-12">
                   <a href="#creative" class="btn btn-outline-light btn-lg">To creative</a>
@@ -115,10 +122,10 @@
       <div class="mainRow ">
         <div class="col-12 aboutMe text-center text-white">
           <h1 class="pb-4"><ins><strong>About Me</strong></ins></h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          <p id="aboutmeText">Hello there! I'm a web developer from The Canary Islands, Spain, that lives in Germany. <br>
+            I have been here for the last year and half but since the pandemic started I spent more time inside my house than seeing the beatiful city of Mainz. <br>
+            I also have lived in Ireland, a place that will always be my second home. The mystic of Connemara and the friendly vibe of Galway will always be in my heart. <br>
+              </p>
         </div>
       </div>
     </div>
@@ -493,7 +500,7 @@
   </div>
 
 <script src="JS/indexJs.js"></script>
-
+<script src="JS/languagejs.js"></script>
 </body>
 
 
