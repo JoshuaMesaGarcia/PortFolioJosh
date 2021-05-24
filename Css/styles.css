@@ -95,9 +95,6 @@ hr{
   filter: invert(1);
 }
 
-footer{
-  background-color: #191e24;
-}
 
 .myNav a{
   color: rgba(255,255,255,.5);
@@ -109,8 +106,24 @@ footer{
   color: rgba(255,255,255,.75);
 }
 
-footer .logo{
-  width: 10%;
+.myFooter{
+     height: 12vh;
+}
+
+.logoFooter{
+     width: 25%;
+}
+
+.navFooter{
+     width: 78%;
+}
+
+.navFooter a{
+     font-size: 2rem;
+}
+
+.arrowUp{
+     font-size: 0.8rem;
 }
 
 /* Flip cards CSS */
@@ -156,7 +169,6 @@ footer .logo{
 .snappingContainer{
     max-height: 100vh;
     overflow-y: scroll;
-    /* overflow-x: hidden; */
     scroll-snap-type: y mandatory;
     left: 0px;
     transition: all .3s ease-out;
@@ -167,15 +179,9 @@ footer .logo{
 }
 
 .itemSnapping{
-    height: 120vh;
+    /* height: 110vh; */
     scroll-snap-align: start ;
     scroll-snap-stop: always;
-}
-
-.itemFooter{
-  height: 15vh;
-  scroll-snap-align: start ;
-  scroll-snap-stop: always;
 }
 
 .itemLanding{

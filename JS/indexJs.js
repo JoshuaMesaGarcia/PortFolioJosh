@@ -20,16 +20,3 @@ $(document).ready(function() {
   $(".back").css("height", highest);
   $(absoluteSide).css("position", "absolute");
 });
-
-
-// var scrollToTopBtn = document.getElementById("scrollToTopBtn");
-// var rootElement = document.documentElement;
-//
-// function scrollToTop() {
-//   rootElement.scrollTo({
-//     top: 0,
-//     behavior: "smooth"
-//   })
-//
-// }
-// scrollToTopBtn.addEventListener("click", scrollToTop);
