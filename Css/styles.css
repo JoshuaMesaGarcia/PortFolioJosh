@@ -165,7 +165,7 @@ hr{
 }
 
 /*  Snapping tool -- Only working in Chrome*/
-
+/*
 .snappingContainer{
     max-height: 100vh;
     overflow-y: scroll;
@@ -179,7 +179,7 @@ hr{
 }
 
 .itemSnapping{
-    /* height: 110vh; */
+
     scroll-snap-align: start ;
     scroll-snap-stop: always;
 }
@@ -188,7 +188,7 @@ hr{
   scroll-snap-align: start;
   scroll-snap-stop: always;
 }
-
+*/
 /* End of Snapping */
 
 /* Media Queries */
