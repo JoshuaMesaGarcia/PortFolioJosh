@@ -1,92 +1,92 @@
-.mainRow{
+.mainRow {
   width: 100%;
   display: flex;
 }
 
-html{
+.invisible-navbar {
+  height: 5rem;
+}
+
+.first-mainRow {
+  width: 100%;
+  display: flex;
+}
+
+html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-hr{
+hr {
   background-color: white;
 }
 
-.logo{
+.logo {
   width: 40%;
 }
 
-.professional-body{
-  background-color: grey;
+.professional-body {
+  background-color: lightgray;
 }
 
-.professional-body img{
+.professional-body img {
   margin-right: -15px;
 }
 
-.creative-body{
+.creative-body {
   background-color: black;
   color: white;
 }
 
-.creative-body img{
+.creative-body img {
   margin-left: -15px;
 }
 
-.landingNav{
+.landingNav {
   background-color: #191c24;
   font-size: 1.2rem;
+  transition: top 0.3s;
 }
 
-.landingNav .navbar{
+.landingNav .navbar {
   font-size: 1.5rem;
 }
 
-
-.landing-img{
-  width: 68%;
-
-}
-
-.aboutMe{
+.aboutMe {
   background-color: #191e24;
   padding-top: 4.5%;
   padding-bottom: 4.3%;
 }
 
-.aboutMe h1{
+.aboutMe h1 {
   font-size: 3rem;
 }
 
-.project-body{
+.project-body {
   background-color: grey;
 }
 
-.project-body hr{
-    border: none;
+.project-body hr {
+  border: none;
 }
 
-#projectBodySm{
-  display: none;
-}
-
-.project-body .landing-img{
+.project-body .landing-img {
   width: 100%;
 }
 
-.hobby-body{
+.hobby-body {
   background-color: black;
 }
 
-.hobby-body .hobby-img{
+.hobby-body .hobby-img {
   width: 95%;
 }
 
-.carousel-creative{
+.carousel-creative {
   height: 38rem;
 }
 
@@ -95,35 +95,33 @@ hr{
   filter: invert(1);
 }
 
-
-.myNav a{
-  color: rgba(255,255,255,.5);
+.myNav a {
+  color: rgba(255, 255, 255, 0.5);
   font-size: 1.2rem;
-
 }
 
-.myNav a:hover{
-  color: rgba(255,255,255,.75);
+.myNav a:hover {
+  color: rgba(255, 255, 255, 0.75);
 }
 
-.myFooter{
-     height: 12vh;
+.myFooter {
+  height: 12vh;
 }
 
-.logoFooter{
-     width: 25%;
+.logoFooter {
+  width: 25%;
 }
 
-.navFooter{
-     width: 78%;
+.navFooter {
+  width: 78%;
 }
 
-.navFooter a{
-     font-size: 2rem;
+.navFooter a {
+  font-size: 2rem;
 }
 
-.arrowUp{
-     font-size: 0.8rem;
+.arrowUp {
+  font-size: 0.8rem;
 }
 
 /* Flip cards CSS */
@@ -160,55 +158,556 @@ hr{
   transform: rotateY(180deg);
 }
 
-.back button{
+.back button {
   width: 80%;
 }
 
-/*  Snapping tool -- Only working in Chrome*/
-/*
-.snappingContainer{
-    max-height: 100vh;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .landingNav {
+    z-index: 1;
+    position: fixed;
+  }
+
+  .languages {
+    position: relative;
+    left: 34px;
+    top: 10px;
+    word-spacing: 25px;
+  }
+
+  .logo {
+    width: 105%;
+  }
+  .languages img {
+    width: 23%;
+    margin-bottom: 5%;
+  }
+
+  .nav-landing a {
+    font-size: 3.5rem;
+  }
+
+  .first-mainRow {
+    width: 100%;
+    display: block;
+    padding-top: 7rem;
+  }
+
+  .professional-body {
+    padding-top: 8%;
+    padding-bottom: 8%;
+  }
+
+  .professional-body a {
+    background-color: black;
+    color: white;
+    font-size: 3rem;
+  }
+
+  .professional-body h1 {
+    font-size: 5rem;
+  }
+
+  .creative-body a {
+    background-color: white;
+    color: black;
+  }
+
+  p {
+    font-size: 2.75rem;
+  }
+
+  .first-mainRow h1 {
+    font-size: 6rem;
+  }
+
+  .first-mainRow a {
+    font-size: 3rem;
+  }
+
+  .landing-img {
+    width: 105%;
+  }
+
+  .aboutMe h1 {
+    font-size: 5rem;
+  }
+
+  .creative-body {
+    padding-top: 8%;
+    padding-bottom: 8%;
+  }
+
+  .project-body h1 {
+    font-size: 6rem;
+    position: relative;
+    left: -2rem;
+  }
+
+  .project-body h5 {
+    font-size: 3.35rem;
+  }
+
+  .hobby-body p {
+    display: none;
+  }
+
+  .landing-img {
+    display: none;
+  }
+
+  .hobby-img {
+    display: none;
+  }
+
+  .card {
+    height: 43rem;
+  }
+
+  .row-card {
+    margin-left: -6rem;
+  }
+
+  .back h3 {
+    font-size: 3.75rem;
+  }
+
+  .back a {
+    font-size: 3.5rem;
+  }
+
+  .line-br {
+    display: none;
+  }
+
+  .card-block button {
+    font-size: 3rem;
+  }
+
+  .cv-column {
+    display: none;
+    position: relative;
+    top: 12rem;
+  }
+
+  .hobby-body h1 {
+    font-size: 5.5rem;
+  }
+
+  .carousel-creative {
+    height: 40rem;
+  }
+
+  .mobile-video {
+    display: block;
+  }
+
+  .lpt-video {
+    display: none;
+  }
+
+  .myFooter {
+    display: none;
+  }
+
+  button {
+    box-shadow: 5px 10px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .logo {
+    width: 90%;
+  }
+
+  .invisible-navbar {
+    height: 7rem;
+  }
+
+  .navbar {
+    float: none !important;
+  }
+
+  .nav-landing {
+    top: 2px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .nav-landing a {
+    font-size: 2.5rem;
+  }
+
+  .languages {
+    position: relative;
+    left: 23%;
+  }
+
+  .languages img {
+    width: 11%;
+    margin-top: 1rem !important;
+  }
+
+  .hobby-body p {
+    display: block;
+  }
+
+  .landing-img {
+    display: block;
+  }
+
+  .hobby-img {
+    display: none;
+  }
+
+  .landing-img {
+    width: 52%;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .professional-body {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: -9px;
+  }
+
+  .professional-body img {
+    margin-right: -15px;
+    height: 100%;
+    position: relative;
+    top: -5%;
+    width: 77%;
+  }
+  .first-mainRow h1 {
+    font-size: 3rem;
+  }
+
+  .first-mainRow a {
+    font-size: 1.5rem;
+  }
+  .creative-body {
+    padding-top: 2%;
+    padding-bottom: 0% !important;
+  }
+
+  .creative-body img {
+    margin-left: -15px;
+    height: 104%;
+    position: relative;
+    top: -7.9%;
+    width: 91%;
+    margin-bottom: none !important;
+  }
+
+  .aboutMe h1 {
+    font-size: 3rem;
+  }
+
+  .cv-column {
+    display: block;
+  }
+
+  .project-body h1 {
+    font-size: 3rem;
+    position: inherit;
     left: 0px;
-    transition: all .3s ease-out;
-    -webkit-transition: all .3s ease-out;
-    -moz-transition: all .3s ease-out;
-    -o-transition: all .3s ease-out;
-    scroll-behavior: smooth;
+  }
+
+  .project-body h5 {
+    font-size: 1.35rem;
+  }
+
+  .card {
+    height: 24rem;
+  }
+
+  .row-card {
+    margin-left: 0rem;
+  }
+
+  .card-block button {
+    font-size: 1rem;
+  }
+
+  .w-50 {
+    width: 80% !important;
+  }
+
+  .back button {
+    box-shadow: 0px 0px;
+  }
+
+  .back h3 {
+    font-size: initial;
+  }
+
+  .back a {
+    font-size: initial;
+  }
+
+  .line-br {
+    display: block;
+    margin-top: 5rem;
+  }
+
+  .hobby-body h1 {
+    font-size: 3.5rem;
+  }
+
+  .carousel-creative {
+    height: 37rem;
+  }
+
+  .arrowUp {
+    position: fixed;
+    z-index: 3;
+  }
 }
 
-.itemSnapping{
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .invisible-navbar {
+    height: 5.6rem;
+  }
 
-    scroll-snap-align: start ;
-    scroll-snap-stop: always;
+  .logo {
+    width: 83%;
+  }
+
+  .nav-landing a {
+    font-size: 3rem;
+    padding: left;
+    padding-left: 5rem;
+    right: 10rem;
+    position: relative;
+  }
+
+  .navbar {
+    left: 3.3rem;
+  }
+
+  .languages {
+    left: 30%;
+    word-spacing: 40px;
+  }
+
+  .languages img {
+    width: 10%;
+    margin-top: 1.4rem !important;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+
+  .professional-body {
+    margin-top: 9px;
+  }
+
+  .professional-body p {
+    font-size: 1.2rem;
+  }
+
+  .pro-description {
+    padding-top: 3rem;
+  }
+
+  .professional-body img {
+    height: 76%;
+    top: 8.5%;
+    width: 110%;
+  }
+
+  .creative-body {
+    margin-top: inherit;
+  }
+
+  .creative-body p {
+    font-size: 1.1rem;
+  }
+
+  .creative-body img {
+    height: 81%;
+    top: 5.1%;
+    width: 100%;
+  }
+
+  .aboutMe {
+    margin-top: inherit;
+  }
+
+  .aboutMe p {
+    font-size: 1.2rem;
+  }
+
+  .card {
+    height: 24rem;
+  }
+
+  .back h3 {
+    font-size: 2rem;
+  }
+
+  .project-body {
+    padding-bottom: 4rem;
+  }
+
+  .project-body h1 {
+    left: 12px;
+  }
+
+  .carousel-inner {
+    width: 87%;
+    height: 55rem;
+  }
+
+  .dv-video {
+    position: relative;
+    width: 86%;
+    left: 8rem;
+  }
 }
 
-.itemLanding{
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
+/* // XX-Large devices (large desktops, 2560px and up) */
+@media (min-width: 2560px) {
+  .logo {
+    width: 72%;
+  }
+
+  .nav-landing a {
+    font-size: 4rem;
+    right: 0rem;
+  }
+
+  .languages {
+    word-spacing: 10rem;
+  }
+
+  .languages img {
+    width: 8%;
+    margin-top: 1.7rem !important;
+  }
+
+  .professional-body{
+    padding-bottom: 4rem;
+  }
+
+  .professional-body p {
+    font-size: 1.9rem;
+  }
+
+  .professional-body a {
+    font-size: 2rem;
+    margin-top: 4.8rem !important;
+  }
+
+  .pro-description {
+    padding-top: 6rem;
+  }
+
+  .professional-body h1 {
+    font-size: 3.5rem;
+  }
+
+  .professional-body img {
+    height: 75%;
+    top: 10.5%;
+    width: 87%;
+  }
+
+  .creative-body p {
+    font-size: 1.7rem;
+  }
+
+  .crea-description h1 {
+    font-size: 3.5rem;
+  }
+
+  .crea-description a {
+    font-size: 2rem;
+  }
+
+  .creative-body {
+    padding-top: 3%;
+  }
+
+  .creative-body img {
+    height: 83%;
+    top: 2.4%;
+    width: 84%;
+  }
+
+  .aboutMe h1 {
+    font-size: 4.5rem;
+  }
+
+  .aboutMe p {
+    font-size: 2rem;
+  }
+
+  .card {
+    height: 35rem;
+  }
+
+  .project-body h1 {
+    font-size: 5rem;
+  }
+
+  .project-body h5 {
+    font-size: 2.5rem;
+  }
+
+  .back h3 {
+    font-size: 4rem;
+    margin-bottom: 1rem !important;
+  }
+
+  .card-block button {
+    font-size: 2.3rem;
+  }
+
+  .back a {
+    font-size: 2rem;
+    margin-top: 3rem !important;
+  }
+
+  .w-50 {
+    width: 53% !important;
+  }
+
+  .hobby-body h1 {
+    font-size: 4.5rem;
+  }
+
+  .carousel-inner {
+    width: 75%;
+    height: 85rem;
+  }
+
+  .carousel-inner p {
+    font-size: 1.8rem;
+  }
+
+  .carousel-inner h5 {
+    font-size: 3rem;
+  }
+
+  .mobile-video h2 {
+    font-size: 3.5rem;
+  }
+
+  .dv-video {
+    width: 74%;
+    left: 14rem;
+  }
+
 }
-*/
-/* End of Snapping */
-
-/* Media Queries */
-@media screen and (max-width: 991.98px){
-
-#projectBodyLg{
-  display: none;
-}
-
-#projectBodySm{
-  display: block;
-}
-
-.landing-img{
-  width: 90%;
-}
-
-.logo{
-  width: 65%;
-}
-
-
- }

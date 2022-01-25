@@ -20,87 +20,89 @@
      <link rel="preconnect" href="https://fonts.gstatic.com">
      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
      <link rel="manifest" href="./IMG/site.webmanifest">
+     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
      <title>Joshua Mesa Garcia</title>
 </head>
 
 <body>
 
-     <div class="snappingContainer">
+    
 
           <div id="landingPage" class="itemLanding">
                <!-- Logo And Menu of the landking Page -->
-               <div class="mainRow landingNav">
-                    <div class="col-4 ">
+               <div class="mainRow row landingNav" id="landingNav">
+                    <div class="col-sm-3 col-4 shadow rounded">
                          <section class="logo">
                               <nav class="navbar navbar-expand-lg navbar-dark">
                                    <img src="./IMG/logo.png" class="logo mt-2 ml-3" alt="">
                               </nav>
                          </section>
                     </div>
-                    <div class="col-4">
-                         <section class="languages  mt-3 text-center">
-                              <img src="IMG/spain.png" alt="spanish flag" onclick="changeLanguage('es')">
-                              <img src="IMG/united-kingdom.png" class="px-2" onclick="changeLanguage('eng')">
-                              <img src="IMG/germany.png" onclick="changeLanguage('deu')">
-                         </section>
-                    </div>
+                   
+                    <div class="col-sm-1"></div>
                     <!-- Menu -->
                     <div class="col-4">
                          <section id="menu-bar">
-                              <nav class="navbar navbar-expand-lg navbar-dark float-right mr-2">
-                                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#landingMenu" aria-controls="landingMenu" aria-expanded="false" aria-label="Toggle navigation">
-                                        <span class="navbar-toggler-icon"></span>
-                                   </button>
-                                   <div class="collapse navbar-collapse myNav" id="landingMenu">
+                              <nav class="navbar navbar-dark float-right pr-sm-2">
+                                   <div class="myNav nav-landing" id="landingMenu">
                                         <div class="d-inline-flex">
-                                             <a class="nav-link" href=""><i class="fas fa-envelope"></i></a>
-                                             <a class="nav-link" href="https://www.linkedin.com/in/joshua-mesa-garc%C3%ADa-59750a140/" target="_blank"> <i class="fab fa-linkedin"></i></a>
-                                             <a class="nav-link" href="" target="_blank"><i class="fab fa-instagram"></i></a>
+                                             <a class="nav-link emailT" id="emailT" href="" target="_blank"><i class="fas fa-envelope"></i></a>
+                                             <a class="nav-link" href="https://www.linkedin.com/in/joshua-mesa-garc%C3%ADa-59750a140/" target="_blank"> <i class="fab fa-linkedin"></i></a>                                            
                                              <a class="nav-link" href="https://github.com/JoshuaMesaGarcia" target="_blank"><i class="fab fa-github"></i></i></a>
+                                             <a class="nav-link" alt="CV Joshua" href="File/cv.pdf" download="CV Joshua" target="_blank"><i class="far fa-file-alt"></i></a>
                                         </div>
                                    </div>
                               </nav>
                          </section>
                     </div>
-               </div>
 
-               <div class="mainRow ">
+                    <div class="col-4">
+                         <section class="languages  mt-3 ">
+                              <img src="IMG/spain.svg" alt="spanish flag" onclick="changeLanguage('es')">
+                              <img src="IMG/united-kingdom.svg" onclick="changeLanguage('eng')">
+                              <img src="IMG/germany.svg" onclick="changeLanguage('deu')">
+                         </section>
+                    </div>
+                    <!-- End of the navbar -->
+               </div>
+               <div class="mainRow row invisible-navbar"></div>
+               <div class="mainRow row">
                     <!-- All related with the Professional Part of the website -->
-                    <div class="col-lg-6 professional-body">
+                    <div class="col-xl-6 col-sm-12 professional-body">
                          <!-- Details about Professional -->
                          <div class="row">
-                              <div class="col-6 pro-description pl-5 my-3">
+                              <div class="col-sm-12 col-lg-8 pro-description pl-5 my-3">
                                    <div class="row">
                                         <div class="col-12">
                                              <h1><strong>Coding</strong></h1>
                                         </div>
-                                        <div class="col-12">
+                                        <div class="col-12 col-xl-10">
                                              <p id="codingText">My speciality is Front-End Design and development. I have great ideas for design and develop them with HTML, CSS and JavaScript.<br><br>
                                                   I completed some front end challenges from FronEndMentor.io . The ones I have finished are located in my github.<br><br>
-                                                  I also have made some projects in other languages, come and have a look at them!
+                                                  I also have developed some projects in other languages, come and have a look at them!
                                              </p>
                                         </div>
                                         <div class="col-12">
-                                             <a href="#project" class="btn btn btn-outline-dark btn-lg ">To Projects</a>
+                                             <a href="#project" class="btn btn btn-outline-dark btn-lg mt-4">See Projects</a>
                                         </div>
                                    </div>
                               </div>
-                              <div class="col-6">
-                                   <img class="rounded float-right landing-img my-4" src="IMG/crop2.jpeg" alt="">
+                              <div class="col-4">
+                                   <img class="rounded float-right landing-img my-4" src="IMG/crop2.webp" alt="">
                               </div>
                          </div>
                     </div>
 
                     <!-- All related with the Creative Part of the website -->
-                    <div class="col-lg-6 creative-body">
+                    <div class="col-sm-12 col-xl-6 creative-body">
                          <div class="row">
-                              <div class="col-6 ">
-                                   <img class="landing-img rounded float-left my-4" src="IMG/crop11.jpeg" alt="">
+                              <div class="col-4 ">
+                                   <img class="landing-img rounded float-left my-4" src="IMG/crop11.webp" alt="">
                               </div>
                               <!-- Description of the Creative part -->
-                              <div class="col-6 crea-description pr-5 my-3 text-right">
+                              <div class="col-sm-12 col-lg-8 crea-description pr-5 my-3 text-right">
                                    <div class="row">
-                                        <div class="col-12 ">
+                                        <div class="col-12 mt-lg-4">
                                              <h1 class=""><strong>Creative</strong></h1>
                                         </div>
                                         <div class="col-12">
@@ -109,8 +111,8 @@
                                                   In the quite time I build some historic plastic models from WW1 and WW2, from airplanes to battleships <br>
                                                   If you want check out some videos and photos from my hobbies, click right here! </p>
                                         </div>
-                                        <div class="col-12">
-                                             <a href="#creative" class="btn btn-outline-light btn-lg">To creative</a>
+                                        <div class="col-12 mt-lg-4">
+                                             <a href="#creative" class="btn btn-outline-light btn-lg mt-3">See creative</a>
                                         </div>
                                    </div>
                               </div>
@@ -118,8 +120,9 @@
 
                     </div>
                </div>
+
                <!-- All related with about me section -->
-               <div class="mainRow ">
+               <div class="mainRow row">
                     <div class="col-12 aboutMe text-center text-white">
                          <h1 class="pb-4"><strong>About Me</strong></h1>
                          <p id="aboutmeText">Hello there! I'm a web developer from The Canary Islands, Spain, that lives in Germany. <br>
@@ -132,7 +135,7 @@
 
 
           <!-- The entire structure for Project page -->
-          <div id="project" class="project-body itemSnapping">
+          <div id="project" class="project-body mainRow row itemSnapping">
 
                <div class="mainRow">
                     <div class="row">
@@ -142,26 +145,26 @@
                     </div>
                </div>
                <!-- To project body -->
-               <div class="mainRow">
-                    <div class="col-8" id="projectBodyLg">
+               <div class="mainRow row">
+                    <div class="col-sm-12 col-lg-8 pb-5" id="projectBodyLg">
                          <div class="row">
-                              <div class="col-2"></div>
-                              <div class="col-10 text-center">
+                              <div class="col-sm-4 col-lg-2"></div>
+                              <div class="col-sm-6 col-lg-10 text-center">
                                    <h1 class="text-left my-4"><strong>Projects</strong></h1>
                               </div>
                          </div>
 
                          <!-- Card Deck -->
-                         <div class="row mb-4">
-                              <div class="col-2"></div>
+                         <div class="row mb-1 row-card">
+                              <div class="col-sm-2 col-lg-2"></div>
 
                               <!-- First Card -->
-                              <div class="col-4 card-container ">
+                              <div class="col-sm-9 col-lg-4 card-container">
                                    <div class="card border-light mb-2 text-white bg-dark text-center card-flip">
                                         <!-- Front of the card -->
                                         <div class="front card-block">
                                              <div class="">
-                                                  <img class="card-img-top my-5 w-50" src="IMG/todoList.png" alt="Card image cap, Todo List ">
+                                                  <img class="card-img-top my-5 w-50" src="IMG/todoList.webp" alt="Card image cap, Todo List ">
                                                   <h5 class="card-title card-body">Todo List</h5>                                          
                                              </div>
                                         </div>
@@ -179,18 +182,18 @@
                               <div class="col-2"></div>
 
                               <!-- Second Card -->
-                              <div class="col-4 card-container">
+                              <div class="col-9 col-lg-4 card-container">
                                    <div class="card border-light mb-2 text-white bg-dark text-center card-flip">
                                         <!-- Front of the card -->
                                         <div class="front card-block">
                                              <div class="">
-                                                  <img class="card-img-top my-5 w-50" src="IMG/Daily-Journal.png" alt="Card image cap">
-                                                  <h5 class="card-title card-body">My Daily Journal</h5>
+                                                  <img class="card-img-top my-5 w-50" src="IMG/Daily-Journal.webp" alt="Card image cap">
+                                                  <h5 class="card-title card-body">My Journal</h5>
                                              </div>
                                         </div>
                                         <!-- Back of the card -->
                                         <div class="back border-light mb-2 text-white bg-dark card-block text-center">
-                                             <h3 class="my-3">My Daily Journal</h3>
+                                             <h3 class="my-3">My Journal</h3>
                                              <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-3"> Node </button><br>
                                              <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-3"> MongoDB </button><br>
                                              <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-3"> JS </button><br>
@@ -202,33 +205,33 @@
                          </div>
 
                          <!-- Line breaks -->
-                         <div class="row">
+                         <div class="row line-br">
                               <div class="col-12">
                                    <hr>
                               </div>
                          </div>
-                         <div class="row">
+                         <div class="row line-br">
                               <div class="col-12">
                                    <hr>
                               </div>
                          </div>
-                         <div class="row">
+                         <div class="row line-br">
                               <div class="col-12">
                                    <hr />
                               </div>
                          </div>
 
                          <!-- Next Row -->
-                         <div class="row my-5">
-                              <div class="col-2"></div>
+                         <div class="row my-1 row-card">
+                              <div class="col-sm-2 col-lg-2"></div>
 
                               <!-- Third Card -->
-                              <div class="col-4 card-container">
+                              <div class="col-sm-9 col-lg-4 card-container">
                                    <div class="card border-light mb-2 text-white bg-dark text-center card-flip">
                                         <!-- Front of the card -->
                                         <div class="front card-block">
                                              <div class="">
-                                                  <img class="card-img-top my-5 w-50" src="IMG/simonsay.png" alt="Card image cap, Simon Say Js game">
+                                                  <img class="card-img-top my-5 w-50" src="IMG/simonsay.webp" alt="Card image cap, Simon Say Js game">
                                                   <h5 class="card-title card-body">Game made with only Js</h5>
                                              </div>
                                         </div>
@@ -246,12 +249,12 @@
                               <div class="col-2"></div>
 
                               <!-- Fourth card -->
-                              <div class="col-4 card-container ">
+                              <div class="col-sm-9 col-lg-4 card-container">
                                    <div class="card border-light mb-2 text-white bg-dark text-center card-flip">
                                         <!-- Front of the card -->
                                         <div class="front card-block">
                                              <div class="pt-4">
-                                                  <img class="card-img-top my-4 w-50" src="IMG/secretapp.png" alt="Card image cap, Secret app made with Node">
+                                                  <img class="card-img-top my-4 w-50" src="IMG/secretapp.webp" alt="Card image cap, Secret app made with Node">
                                                   <h5 class="card-title card-body mt-5"> The Secret App </h5>
                                              </div>
                                         </div>
@@ -269,96 +272,12 @@
                          <!-- End of the Row -->
                     </div>
 
-
-                    <!-- Project Body only visible for small devices -->
-                    <div class="col-8" id="projectBodySm">
-                         <div class="row">
-                              <div class="col-2"></div>
-                              <div class="col-10 text-center">
-                                   <h1 class="text-left my-4"><strong>Projects</strong></h1>
-                              </div>
-                         </div>
-                         <!-- carousel that will be visible on phones with the projects -->
-                         <div class="row mb-4">
-                              <div class="col-2"></div>
-                              <div class="col-10">
-                                   <div id="carouselProject" class="carousel slide" data-ride="carousel">
-                                        <div class="carousel-inner">
-                                             <!-- First card -->
-                                             <div class="carousel-item active">
-                                                  <div class="card border-light mb-2 text-white bg-dark text-center card-flip">
-                                                       <div class="">
-                                                            <img class="card-img-top my-4 w-50" src="IMG/game.png" alt="GameJS cap">
-                                                            <div class="border-light mb-2 text-white bg-dark card-block text-center">
-                                                                 <h3 class="my-3">Simon - JS</h3>
-                                                                 <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-3"> JavaScript - HTML - CSS</button><br>
-                                                                 <a href="https://joshuamesagarcia.github.io/GameJs/" target="_blank" class="btn btn-outline-light btn-lg my-3 ">To the game</a>
-                                                            </div>
-                                                       </div>
-                                                  </div>
-                                             </div>
-                                             <!-- Second Card -->
-                                             <div class="carousel-item">
-                                                  <div class="card border-light mb-2 text-white bg-dark text-center card-flip">
-                                                       <div class="">
-                                                            <img class="card-img-top mt-4 mb-5 w-50" src="IMG/Quidditch.PNG" alt="Quidditch cap">
-                                                            <div class="border-light mb-2 text-white bg-dark card-block text-center">
-                                                                 <h3 class="my-4">Quidditch App</h3>
-                                                                 <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-3"> Android Studio - Java </button><br>
-                                                                 <a href="https://github.com/JoshuaMesaGarcia/QuidditchScoreBoard" target="_blank" class="btn btn-outline-light btn-lg my-3">To the code</a>
-                                                            </div>
-                                                       </div>
-                                                  </div>
-                                             </div>
-                                             <!-- Third card -->
-                                             <div class="carousel-item">
-                                                  <div class="card border-light mb-2 text-white bg-dark text-center card-flip">
-                                                       <div class="">
-                                                            <img class="card-img-top my-5 w-50" src="IMG/audioPlayer.PNG" alt="Card image cap">
-                                                            <div class="border-light mb-2 text-white bg-dark card-block text-center">
-                                                                 <h3 class="my-3">Audio Player</h3>
-                                                                 <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-2"> JS - HTML - SVG - Css </button><br>
-                                                                 <a href="https://joshuamesagarcia.github.io/MyAudioPlayer/" target="_blank" class="btn btn-lg btn-outline-light my-4">Have a look!</a>
-                                                            </div>
-                                                       </div>
-                                                  </div>
-                                             </div>
-                                             <!-- Fourth card -->
-                                             <div class="carousel-item">
-                                                  <div class="card border-light mb-2 text-white bg-dark text-center card-flip">
-                                                       <div class="">
-                                                            <img class="card-img-top mt-4 mb-2 w-75" src="IMG/forms1.PNG" alt="Card image cap">
-                                                            <div class="border-light mb-2 text-white bg-dark card-block text-center">
-                                                                 <h3 class="my-3">Forms with Validate.js</h3>
-                                                                 <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-2"> Ajax - Json - MySQL - Jquery</button><br>
-                                                                 <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-2"> Validate.js - Toastr </button><br>
-                                                                 <button type="button" class="btn btn-outline-light btn-lg rounded-pill my-2"> Bootstrap - HTML - CSS </button><br>
-                                                                 <a href="https://github.com/JoshuaMesaGarcia/MyForms" target="_blank" class="btn btn-lg btn-outline-light my-3">To the code</a>
-                                                            </div>
-                                                       </div>
-                                                  </div>
-                                             </div>
-                                        </div>
-                                   </div>
-                                   <!-- Controls of the carousel -->
-                                   <a class="carousel-control-prev" href="#carouselProject" role="button" data-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Previous</span>
-                                   </a>
-                                   <a class="carousel-control-next" href="#carouselProject" role="button" data-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Next</span>
-                                   </a>
-                              </div>
-                         </div>
-                    </div>
-
                     <!-- Image -->
-                    <div class="col-4 mt-5">
+                    <div class="col-4 mt-5 cv-column">
                          <div class="row">
                               <div class="col-4"></div>
                               <div class="col-8 mt-4">
-                                   <img class="landing-img rounded mb-4 mt-4 pr-1" src="IMG/crop2.jpeg" alt="">
+                                   <img class="landing-img rounded mb-4 mt-4 pr-1" src="IMG/fullPicture.webp" alt="">
                               </div>
                          </div>
                          <div class="row">
@@ -373,7 +292,7 @@
 
 
           <!-- To Hobby Body -->
-          <div id="creative" class="hobby-body itemSnapping">
+          <div id="creative" class="hobby-body mainRow row itemSnapping">
 
                <div class="mainRow">
                     <div class="row">
@@ -384,39 +303,38 @@
                </div>
 
                <!-- Description of the page -->
-               <div class="mainRow">
-                    <div class="col-3"></div>
-                    <div class="col-4">
+               <div class="mainRow row">
+                    <div class="col-sm-3 col-lg-5"></div>
+                    <div class="col-sm-7 col-lg-4">
                          <h1 class="text-left my-4 text-white"><strong>My Hobbies</strong></h1>
                     </div>
                </div>
 
                <!-- Creative section IMG and page -->
-               <div class="mainRow">
-                    <div class="col-3">
-                         <img class="rounded float-left hobby-img mb-5" src="IMG/crop11.jpeg" alt="">
-                    </div>
-                    <!-- Modelkits -->
-                    <div class="col-4 ">
+               <div class="mainRow row">
+                    <div class="col-sm-1 col-lg-2">   </div>
+
+                    <!-- Modelkits -->        
+                    <div class="col-sm-10 col-lg-10 ">
                          <div id="carouselModelKits" class="carousel slide" data-ride="carousel">
 
                               <div class="carousel-inner">
                                    <div class="carousel-item active carousel-creative">
-                                        <img class="d-block image-fluid img-thumbnail" src="IMG/diorama1.jpg" alt="First slide">
+                                        <img class="d-block image-fluid img-thumbnail" src="IMG/diorama1.webp" alt="First slide">
                                         <div class="text-center text-white py-2">
                                              <h5>Supermarine Walrus Mk.1 Diorama</h5>
                                              <p>The Supermarine Walrus was a British single-engine amphibious biplane manufactured by the British aircraft company Supermarine</p>
                                         </div>
                                    </div>
                                    <div class="carousel-item carousel-creative">
-                                        <img class="d-block image-fluid img-thumbnail" src="IMG/diorama1-2.jpg" alt="Second slide">
+                                        <img class="d-block image-fluid img-thumbnail" src="IMG/diorama1-2.webp" alt="Second slide">
                                         <div class="text-center text-white py-2">
                                              <h5>Supermarine Walrus Mk.1 Diorama</h5>
                                              <p>The first Seagull V, A2-1, was handed over to the Royal Australian Air Force in 1935, with the last, A2-24 delivered in 1937</p>
                                         </div>
                                    </div>
                                    <div class="carousel-item carousel-creative">
-                                        <img class="d-block image-fluid img-thumbnail" src="IMG/diorama1-3.jpg" alt="Third slide">
+                                        <img class="d-block image-fluid img-thumbnail" src="IMG/diorama1-3.webp" alt="Third slide">
                                         <div class="text-center text-white py-4">
                                              <h5>Supermarine Walrus Mk.1 Diorama</h5>
                                              <p>This Diorama was the first Diorama I ever made</p>
@@ -432,64 +350,40 @@
                                         <span class="sr-only">Next</span>
                                    </a>
                               </div>
-                         </div>
-                    </div>
-
-                    <!-- Music / Video of me playing drums -->
-                    <div class="col-5">
-                         <div id="carouselMusic" class="carousel slide" data-ride="carousel">
-                              <div class="carousel-inner">
-                                   <div class="carousel-item active carousel-creative">
-                                        <img class="d-block image-fluid img-thumbnail" src="./IMG/drumsImage.jpeg" alt="no images of drums ">
-                                       <!---  <div class="embed-responsive embed-responsive-4by3">
-                                             <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=n63UbX5kzAc" allowfullscreen></iframe> 
-                                             <img class="d-block image-fluid img-thumbnail" src="./IMG/drumsImage.jpeg" alt="no images of drums ">
-                                        </div>-->
-                                   </div>
-
-                                   <a class="carousel-control-prev" href="#carouselMusic" role="button" data-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Previous</span>
-                                   </a>
-                                   <a class="carousel-control-next" href="#carouselMusic" role="button" data-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Next</span>
-                                   </a>
-                              </div>
-                         </div>
-                    </div>
+                         </div>                  
+                   
+                    </div>    
+         
                </div>
-
-
-               <div class="mainRow myFooter">
-                    <div class="col-3 text-center mb-4 mt-3">
-                         <img src="./IMG/logo.png" class="logo logoFooter" alt="Logo">
-                    </div>
-
-                    <div class="col-6 text-center">
-                         <div class="row">
-                              <div class="col-12">
-                                   <div class="d-flex justify-content-end myNav navFooter">
-                                        <a class="nav-link" href=""><i class="fas fa-envelope"></i></a>
-                                        <a class="nav-link" href="https://www.linkedin.com/in/joshua-mesa-garc%C3%ADa-59750a140/" target="_blank"> <i class="fab fa-linkedin"></i></a>
-                                        <a class="nav-link" href="" target="_blank"><i class="fab fa-instagram"></i></a>
-                                        <a class="nav-link" href="https://github.com/JoshuaMesaGarcia" target="_blank"><i class="fab fa-github"></i></i></a>
-                                   </div>
-                              </div>
+                  <!-- Music / Video of me playing drums -->
+            
+               <div class="mainRow row mobile-video mt-5 pb-5">
+                    <div class="row ">
+                         <div class="col-12 ">
+                              <h2 class="text-white text-center"><strong>Zombie Drums Cover</strong></h1>
                          </div>
                     </div>
-                    <div class="col-2 mt-2">
-                         <a href="#landingPage" class="text-white arrowUp"><i class="mt-1 fas fa-arrow-circle-up fa-3x float-right"></i></a>
-                    </div>
-               </div>
 
+                    <div class="row">
+                         <div class="col-sm-1"></div>
+                         <div class="col-sm-10">       
+                              <div class="dv-video embed-responsive embed-responsive-16by9 img-thumbnail ">
+                                   <video controls class="embed-responsive-item">
+                                        <source src="Video/drumVideo.webm" type="video/mp4">  
+                                        Sorry, your browser doesn't support embedded videos.
+                                   </video>
+                                   
+                                </div>
+                                
+                         </div> 
+                         <div class="col-1"><a href="#landingPage" class="text-white"><i class="mt-1 fas fa-arrow-circle-up fa-3x float-left"></i></a></div>  
+                    </div>   
+                    
+               </div>
+                       
           </div>
-
-     </div>
 
      <script src="JS/indexJs.js"></script>
      <script src="JS/languagejs.js"></script>
 </body>
-
-
 </html>
