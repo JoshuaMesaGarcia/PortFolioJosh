@@ -243,6 +243,14 @@ hr {
     padding-bottom: 8%;
   }
 
+  .creative-body h1 {
+    font-size: 5rem;
+  }
+
+  .creative-body a{
+    font-size: 3rem;
+  }
+
   .project-body h1 {
     font-size: 6rem;
     position: relative;
