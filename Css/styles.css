@@ -3,6 +3,10 @@
   display: flex;
 }
 
+.row{
+  margin: 0px;
+}
+
 .invisible-navbar {
   height: 5rem;
 }
@@ -347,6 +351,8 @@ hr {
   .languages {
     position: relative;
     left: 23%;
+    top: 3px;
+    word-spacing: 38px;
   }
 
   .languages img {
@@ -378,6 +384,14 @@ hr {
     padding-top: 0px;
     padding-bottom: 0px;
     margin-top: -9px;
+  }
+
+  .professional-body h1 {
+    font-size: 3rem;
+  }
+
+  .professional-body a{
+    font-size: 1.5rem;
   }
 
   .professional-body img {
@@ -473,21 +487,21 @@ hr {
   }
 }
 
-/* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+/* // X-Large devices (large desktops) */
+@media(min-width: 1025px) {
   .invisible-navbar {
     height: 5.6rem;
   }
 
   .logo {
-    width: 83%;
+    width: 82%;
   }
 
   .nav-landing a {
-    font-size: 3rem;
+    font-size: 3.5rem;
     padding: left;
     padding-left: 5rem;
-    right: 10rem;
+    right: 6rem;
     position: relative;
   }
 
@@ -497,12 +511,13 @@ hr {
 
   .languages {
     left: 30%;
-    word-spacing: 40px;
+    word-spacing: 7rem;
+    top: 0%;
   }
 
   .languages img {
-    width: 10%;
-    margin-top: 1.4rem !important;
+    width: 8%;
+    margin-top: 1.7rem !important;
   }
 
   p {
@@ -510,21 +525,30 @@ hr {
   }
 
   .professional-body {
-    margin-top: 9px;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .professional-body p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+  }
+  .professional-body h1{  
+      font-size: 3rem;
   }
 
+  .professional-body a{  
+    font-size: 1.3rem;
+  }
+  
   .pro-description {
     padding-top: 3rem;
   }
 
   .professional-body img {
-    height: 76%;
-    top: 8.5%;
-    width: 110%;
+    height: 70.3%;
+    top: 13%;
+    width: 95%;
+    right: -6%;
   }
 
   .creative-body {
@@ -532,13 +556,18 @@ hr {
   }
 
   .creative-body p {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
+  }
+
+  .creative-body a{
+    margin-top: -0.7rem!important;
   }
 
   .creative-body img {
-    height: 81%;
-    top: 5.1%;
-    width: 100%;
+    height: 71%;
+    top: 12.2%;
+    width: 98%;
+    left: -5%;
   }
 
   .aboutMe {
@@ -546,14 +575,26 @@ hr {
   }
 
   .aboutMe p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   .card {
-    height: 24rem;
+    height: 31rem;
+  }
+  
+  .w-50 {
+    width: 58% !important;
   }
 
   .back h3 {
+    font-size: 2.5rem;
+  }
+
+  .back a {
+    font-size: 2rem;
+  }
+
+  .card-block button {
     font-size: 2rem;
   }
 
@@ -563,17 +604,22 @@ hr {
 
   .project-body h1 {
     left: 12px;
+    font-size: 4rem;
+  }
+
+  .project-body h5 {
+    font-size: 2rem;
   }
 
   .carousel-inner {
-    width: 87%;
-    height: 55rem;
-  }
+    width: 82%;
+    height: 70rem;
+}
 
   .dv-video {
     position: relative;
-    width: 86%;
-    left: 8rem;
+    width: 81%;
+    left: 11rem;
   }
 }
 
@@ -597,7 +643,7 @@ hr {
     margin-top: 1.7rem !important;
   }
 
-  .professional-body{
+  .professional-body {
     padding-bottom: 4rem;
   }
 
@@ -709,5 +755,4 @@ hr {
     width: 74%;
     left: 14rem;
   }
-
 }
