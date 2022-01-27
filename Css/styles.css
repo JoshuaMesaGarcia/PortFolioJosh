@@ -421,6 +421,14 @@ hr {
     padding-bottom: 0% !important;
   }
 
+  .creative-body h1 {
+    font-size: 3rem;
+  }
+
+  .creative-body a {
+    font-size: 1.3rem;
+  }
+
   .creative-body img {
     margin-left: -15px;
     height: 104%;
@@ -568,7 +576,8 @@ hr {
   }
 
   .creative-body a{
-    margin-top: -0.7rem!important;
+    margin-top: -1.7rem!important;
+    font-size: 1.3rem;
   }
 
   .creative-body img {
