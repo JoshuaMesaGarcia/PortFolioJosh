@@ -176,20 +176,24 @@ hr {
   .languages {
     position: relative;
     left: 34px;
-    top: 10px;
-    word-spacing: 25px;
+    top: 16%;
+    word-spacing: 19px;
   }
 
   .logo {
     width: 105%;
+    padding-top: 3%;
   }
+
   .languages img {
-    width: 23%;
+    width: 21%;
     margin-bottom: 5%;
   }
 
   .nav-landing a {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
+    position: relative;
+    left: 10%;
   }
 
   .first-mainRow {
@@ -353,13 +357,14 @@ hr {
   }
 
   .nav-landing a {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    left: -9%;
   }
 
   .languages {
     position: relative;
     left: 23%;
-    top: 3px;
+    top: 9px;
     word-spacing: 38px;
   }
 
@@ -511,14 +516,15 @@ hr {
 
   .logo {
     width: 82%;
+    position: relative;
+    bottom: 11%;
   }
 
   .nav-landing a {
-    font-size: 3.5rem;
-    padding: left;
+    font-size: 3.8rem;
     padding-left: 5rem;
-    right: 6rem;
     position: relative;
+    left: -6rem;
   }
 
   .navbar {
@@ -704,8 +710,8 @@ hr {
   }
 
   .creative-body img {
-    height: 83%;
-    top: 2.4%;
+    height: 92%;
+    top: 6.4%;
     width: 84%;
   }
 
