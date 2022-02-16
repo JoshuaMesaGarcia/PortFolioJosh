@@ -3,6 +3,11 @@
   display: flex;
 }
 
+.landingNav {
+  z-index: 1;
+  position: fixed;
+}
+
 .row{
   margin: 0px;
 }
@@ -166,13 +171,12 @@ hr {
   width: 80%;
 }
 
-/*  Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-  .landingNav {
-    z-index: 1;
-    position: fixed;
-  }
+.mobile-video {
+  display: block;
+}
 
+/*  Small devices (landscape phones, 576px and up) */
+@media (max-width: 991px) {
   .languages {
     position: relative;
     left: 34px;
@@ -315,15 +319,8 @@ hr {
     height: 40rem;
   }
 
-  .mobile-video {
-    display: block;
-  }
 
   .lpt-video {
-    display: none;
-  }
-
-  .myFooter {
     display: none;
   }
 
@@ -509,7 +506,7 @@ hr {
 }
 
 /* // X-Large devices (large desktops) */
-@media(min-width: 1025px) {
+@media(min-width: 1080px) {
   .invisible-navbar {
     height: 5.6rem;
   }
