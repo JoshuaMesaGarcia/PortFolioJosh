@@ -3,6 +3,10 @@
   display: flex;
 }
 
+.languages img{
+  cursor: pointer;
+}
+
 .landingNav {
   z-index: 1;
   position: fixed;
@@ -514,7 +518,6 @@ hr {
   .logo {
     width: 82%;
     position: relative;
-    bottom: 11%;
   }
 
   .nav-landing a {
